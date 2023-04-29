@@ -1,3 +1,7 @@
 export default function Test1(){
-    return <div>HI</div>
+    var t= [];
+    for(let i = 0; i < 50; i++){
+        t.push(<div>HI <br/></div>)
+    }
+    return <div>{t}</div>
 }
