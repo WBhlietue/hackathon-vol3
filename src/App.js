@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
+import { Profile } from "./pages/Profile";
 import Test1 from "./pages/Test1";
 import Test2 from "./pages/Test2";
 const UserType = {
@@ -67,6 +68,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Test1 />} />
           <Route path="test" element={<Test2 />} />
+          <Route path="profile" element={<Profile/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

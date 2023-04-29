@@ -31,7 +31,7 @@ export function Header() {
           </Link>
         </li>
         <li>
-          <Link className="headerMainNavLink" to={"/Test"}>
+          <Link className="headerMainNavLink" to={"/profile"}>
             <div>HI</div>
           </Link>
         </li>
