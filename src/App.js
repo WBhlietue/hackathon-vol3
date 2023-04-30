@@ -75,24 +75,24 @@ setInterval(() => {
 }, 100);
 
 export default function App() {
-  useEffect(() => {}, []);
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="test" element={<Test2 />} />
-          <Route path="viewOrders" element={<ViewOrders />} />
-          <Route path="profile" element={<Profile />} />
-          <Route path="orderList" element={<GetOrderList />} />
-          <Route path="myOrders" element={<MyOrder />} />
-          <Route path="orderDetail/:id" element={<MyOrderDetail />} />
-          <Route path="addOrderRequest/:id" element={<ViewOrdersAdd />} />
-          <Route path="placeWork" element={<PlaceWork />} />
-          <Route path="About" element={<About/>}></Route>
-          <Route path="FAQ" element={<FAQ/>}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<Layout />}>
+    //       <Route index element={<Home />} />
+    //       <Route path="test" element={<Test2 />} />
+    //       <Route path="viewOrders" element={<ViewOrders />} />
+    //       <Route path="profile" element={<Profile />} />
+    //       <Route path="orderList" element={<GetOrderList />} />
+    //       <Route path="myOrders" element={<MyOrder />} />
+    //       <Route path="orderDetail/:id" element={<MyOrderDetail />} />
+    //       <Route path="addOrderRequest/:id" element={<ViewOrdersAdd />} />
+    //       <Route path="placeWork" element={<PlaceWork />} />
+    //       <Route path="About" element={<About/>}></Route>
+    //       <Route path="FAQ" element={<FAQ/>}/>
+    //     </Route>
+    //   </Routes>
+    // </BrowserRouter>
+    <Home/>
   );
 }
