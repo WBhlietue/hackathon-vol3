@@ -1,16 +1,12 @@
-:root{
-    --height:20rem;
-    --margin:1rem;
-}
+
 
 .footerMain{
     width: 100%;
-    height: var(--height);
+    height: fit-content;
     background-color: yellow;
 }
 .footerItems{
-    margin: var(--margin);
-    height: calc(var(--height) - var(--margin) * 2);
+    margin:1em;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,9 +23,9 @@
 .footerDataLine{
     align-self: center;
     height: 80%;
-    width: 0.1rem;
+    width: 0.1em;
     background-color: rgb(150, 150, 150);
-    margin: 0 1rem;
+    margin: 0 1em;
     display: flex;
 }
 .footerDataRight{
@@ -45,9 +41,9 @@
 }
 .footerDataLeftIcon{
     position: relative;
-    width: 2.5rem;
-    height: 2.5rem;
-    margin:0 0.5rem;
+    width: 2.5em;
+    height: 2.5em;
+    margin:0 0.5em;
     transition: all 0.5s;
     cursor: pointer;
 }
@@ -60,8 +56,8 @@
 }
 .footerDataRightIcon{
     position: relative;
-    height: 1.5rem;
-    margin:0 0.5rem;
+    height: 1.5em;
+    margin:0 0.5em;
     transition: all 0.5s;
     cursor: pointer;
 }

@@ -1,0 +1,116 @@
+.homeMainPage{
+    min-height: 100vh;
+    background-image: url(../assets/images/homeBG.svg);
+    background-position: center;
+    background-size: cover;
+}
+.homeMainPageCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.homeMainPagePersonParent{
+    margin-top: 6em;
+    width: 10em;
+    height: 10em;
+    background-color: white;
+    border-radius: 100%;
+}
+.homeMainPagePerson{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/images/homePerson.svg);
+    background-size: cover;
+    background-position: center;
+}
+.homeMainPageText1{
+    margin: 1em;
+    color: white;
+    font-size: 2em;
+}
+.homeMainPageBtn1{
+    width: 24em;
+    height: 3em;
+    margin: 0.2em;
+    border-radius: 1em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.homeMainPageBtn2{
+    width: 24em;
+    height: 3em;
+    margin: 0.2em;
+    border-radius: 1em;
+    background-color: #FF5F6D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.homeMainPageBtn1:hover{
+    transform: scale(1.1);
+}
+.homeMainPageBtn2:hover{
+    transform: scale(1.1);
+}
+.homeMainPageText2{
+    font-size: 1.3em;
+}
+.homeSecondPage{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homeSecondPageLittleTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homeSecondPageLittleTitleStar{
+    background-image: url(../assets/images/fiveStar.svg);
+    background-position: center;
+    background-size: cover;
+    height: 1em;
+    width: 8em;
+}
+.homeSecondPageLittleTitleText{
+    font-size: 1.3em;
+}
+.homeSecondPageSet1ItemImg{
+   
+    height: 10em;
+    width: 14em;
+    background-position: center;
+    background-size: cover;
+}
+.homeSecondPageSet1ItemImgData1{
+    background-image: url(../assets/images/ajil1.svg);
+}
+.homeSecondPageSet1ItemImgData2{
+    background-image: url(../assets/images/ajil2.svg);
+}
+.homeSecondPageSet1ItemImgData3{
+    background-image: url(../assets/images/ajil3.svg);
+}
+.homeSecondPageSet1ItemImgData4{
+    background-image: url(../assets/images/ajil4.svg);
+}
+.homeSecondPageSet1Title{
+    font-size:2em;
+}
+.homeSecondPageSet1ItemList{
+    display: flex;
+    flex-direction: row;
+}
+.homeSecondPageSet1Item{
+    margin: 1em;
+}

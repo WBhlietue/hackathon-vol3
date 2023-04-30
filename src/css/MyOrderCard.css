@@ -1,0 +1,121 @@
+.myOrderCardMain{
+    background-color: rgb(228, 243, 255);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+    margin:1em auto;
+    border-radius: 1em;
+}
+.myOrderCardTopParent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.myOrderCardCenterParent{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.myOrderCardBottomParent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.myOrderCardBtn{
+    background: yellow;
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.myOrderCardBtn:hover{
+    transform: scale(1.1);
+}
+
+.myOrderCardCenterType{
+    color: green;
+    font-weight: bold;
+}
+
+.myOrderCardTopParent{
+    
+}
+.myOrderCardTopDatas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.myOrderCardTopIcon{
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+.myOrderCardTopOrderNum{
+    font-size: 1.3em;
+}
+.myOrderCardTopDate{
+    font-size: 1.1em;
+}
+.myOrderCardCenterName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.myOrderCardCenterNameText{
+    font-size: 2em;
+    margin-right: 1em;
+}
+.myOrderCardCenterType{
+    background-color: rgb(0, 212, 0);
+    border-radius: 10em;
+    color: white;
+    padding: 0.5em 1em;
+    font-weight: bold;
+}
+.myOrderCardCenterDescrition{
+    font-size: 1.3em;
+    margin: 0.5em 0em;
+}
+.myOrderCardCenterSkill{
+
+}
+.myOrderCardCenterSkill li{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(0, 216, 148);
+}
+.myOrderCardCenterSkillText{
+    font-size: 1.2em;
+    color:red;
+    font-weight: bold;
+}
+.myOrderCardBottomParent{
+
+}
+.myOrderCardBottomRequest{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.myOrderCardBottomRequestIcon{
+    width: 2em;
+    height: 2em;
+    margin-right: 0.5em;
+}
+.myOrderCardBottomRequestText{
+    font-size: 1.3em;
+    color: blue;
+}

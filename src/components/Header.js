@@ -1,46 +1,40 @@
 import "../css/Header.css";
 import { Link } from "react-router-dom";
+import { GetTestLogo } from "./GetTestLogo";
 
 export function Header() {
   return (
     <div className="headerMain">
       <div className="headerMainLogoParent">
         <div className="headerMainLogo">
-          <img
-            src={require("../assets/images/logo.png")}
-            width="100%"
-            height="100%"
-          ></img>
+          <GetTestLogo />
         </div>
-        <div className="headerMainLogoText">Hackathon-Vol3</div>
+        <div className="headerMainLogoText">Apollo</div>
       </div>
       <ul className="headerMainNav">
         <li>
-          <Link className="headerMainNavLink" to={"/"}>
-            <div>HI</div>
+          <Link className="headerMainNavLink headerMainUnderLineAni" to={"/"}>
+            <div>Нүүр</div>
           </Link>
         </li>
         <li>
-          <Link className="headerMainNavLink" to={"/Test"}>
-            <div>HI</div>
+          <Link className="headerMainNavLink headerMainUnderLineAni" to={"/orderList"}>
+            <div>Бидний тухай</div>
           </Link>
         </li>
         <li>
-          <Link className="headerMainNavLink" to={"/Test"}>
-            <div>HI</div>
-          </Link>
-        </li>
-        <li>
-          <Link className="headerMainNavLink" to={"/profile"}>
-            <div>HI</div>
-          </Link>
-        </li>
-        <li>
-          <Link className="headerMainNavLink" to={"/Test"}>
-            <div>HI</div>
+          <Link className="headerMainNavLink headerMainUnderLineAni" to={"/Test"}>
+            <div>Зөвөлгөө</div>
           </Link>
         </li>
       </ul>
+      <div className="headerMainRight">
+        <div className="headerMainLogin headerMainUnderLineAni">Нэвтрэх</div>
+        <div className="headerMainRegister">
+          <div>Aжил байршуулах</div>
+          <div>&#8250;</div>
+        </div>
+      </div>
     </div>
   );
 }

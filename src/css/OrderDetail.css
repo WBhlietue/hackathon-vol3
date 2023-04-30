@@ -1,0 +1,139 @@
+.orderDetailMain{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+}
+.orderDetailRight{
+
+}
+.orderDetailRightMain{
+    background-color: rgb(228, 243, 255);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    margin:1em;
+    border-radius: 1em;
+}
+.orderDetailRightTopParent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.orderDetailRightCenterParent{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.orderDetailRightBottomParent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.orderDetailRightBtn{
+    background: yellow;
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.orderDetailRightBtn:hover{
+    transform: scale(1.1);
+}
+
+.orderDetailRightCenterType{
+    color: green;
+    font-weight: bold;
+}
+
+.orderDetailRightTopParent{
+    
+}
+.orderDetailRightTopDatas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.orderDetailRightTopIcon{
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+.orderDetailRightTopOrderNum{
+    font-size: 1.3em;
+}
+.orderDetailRightTopDate{
+    font-size: 1.1em;
+}
+.orderDetailRightCenterName{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.orderDetailRightCenterNameText{
+    font-size: 2em;
+    margin-right: 1em;
+}
+.orderDetailRightCenterType{
+    background-color: rgb(0, 212, 0);
+    border-radius: 10em;
+    color: white;
+    padding: 0.5em 1em;
+    font-weight: bold;
+}
+.orderDetailRightCenterDescrition{
+    font-size: 1.3em;
+    margin: 0.5em 0em;
+}
+.orderDetailRightCenterSkill{
+
+}
+.orderDetailRightCenterSkill li{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: rgb(0, 216, 148);
+}
+.orderDetailRightCenterSkillText{
+    font-size: 1.2em;
+    color:red;
+    font-weight: bold;
+}
+.orderDetailRightBottomParent{
+
+}
+.orderDetailRightBottomRequest{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.orderDetailRightBottomRequestIcon{
+    width: 2em;
+    height: 2em;
+    margin-right: 0.5em;
+}
+.orderDetailRightBottomRequestText{
+    font-size: 1.3em;
+    color: blue;
+}
+.orderDetailLine{
+    width: 0.1em;
+    border-radius: 100em;
+    background-color: rgb(141, 141, 141);
+}
+.orderDetailLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,8 +1,14 @@
+import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { GetOrderList } from "./pages/GetOrderList";
+import { Home } from "./pages/Home";
 import Layout from "./pages/Layout";
 import { Profile } from "./pages/Profile";
 import Test1 from "./pages/Test1";
 import Test2 from "./pages/Test2";
+import "./css/Haku-Ani.css"
+import { MyOrder } from "./pages/MyOrders";
+import { MyOrderDetail } from "./pages/MyOrderDetail";
 const UserType = {
   worker: "1",
   part: "2",
@@ -16,7 +22,7 @@ function OnScroll() {
   var elems = document.querySelectorAll(
     ".haku-from-bottom, .haku-from-top, .haku-from-left, .haku-from-right, .haku-from-scale"
   );
-  var revealPoint = 0;
+  var revealPoint = -10;
   var windowHeight = window.innerHeight;
   var delta = windowHeight + revealPoint;
   elems.forEach((i) => {
@@ -58,17 +64,25 @@ function OnScroll() {
     }
   });
 }
-// OnScroll();
-
+setInterval(() => {
+  window.addEventListener("scroll", OnScroll);
+  OnScroll();
+}, 100);
 
 export default function App() {
+  useEffect(() => {
+    
+  }, [])
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Test1 />} />
+          <Route index element={<Home />} />
           <Route path="test" element={<Test2 />} />
           <Route path="profile" element={<Profile/>}/>
+          <Route path="orderList" element={<GetOrderList/>}/>
+          <Route path="myOrders" element={<MyOrder/>}/>
+          <Route path="orderDetail/:id" element={<MyOrderDetail/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

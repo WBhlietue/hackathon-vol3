@@ -1,4 +1,5 @@
 import "../css/Footer.css";
+import { GetTestLogo } from "./GetTestLogo";
 
 export function Footer() {
   return (
@@ -9,47 +10,27 @@ export function Footer() {
             <ul className="footerDataLeftList">
               <li className="footerDataLeftIcon">
                 <a>
-                  <img
-                    src={require("../assets/images/logo.png")}
-                    width="100%"
-                    height="100%"
-                  />
+                  <GetTestLogo />
                 </a>
               </li>
               <li className="footerDataLeftIcon">
                 <a>
-                  <img
-                    src={require("../assets/images/logo.png")}
-                    width="100%"
-                    height="100%"
-                  />
+                  <GetTestLogo />
                 </a>
               </li>
               <li className="footerDataLeftIcon">
                 <a>
-                  <img
-                    src={require("../assets/images/logo.png")}
-                    width="100%"
-                    height="100%"
-                  />
+                  <GetTestLogo />
                 </a>
               </li>
               <li className="footerDataLeftIcon">
                 <a>
-                  <img
-                    src={require("../assets/images/logo.png")}
-                    width="100%"
-                    height="100%"
-                  />
+                  <GetTestLogo />
                 </a>
               </li>
               <li className="footerDataLeftIcon">
                 <a>
-                  <img
-                    src={require("../assets/images/logo.png")}
-                    width="100%"
-                    height="100%"
-                  />
+                  <GetTestLogo />
                 </a>
               </li>
             </ul>
@@ -70,24 +51,19 @@ export function Footer() {
           <div className="footerDataRight">
             <ul className="footerDataRightList">
               <li className="footerDataRightIcon">
-                <a>123
-                </a>
+                <a>123</a>
               </li>
               <li className="footerDataRightIcon">
-                <a>123
-                </a>
+                <a>123</a>
               </li>
               <li className="footerDataRightIcon">
-                <a>123
-                </a>
+                <a>123</a>
               </li>
               <li className="footerDataRightIcon">
-                <a>123
-                </a>
+                <a>123</a>
               </li>
               <li className="footerDataRightIcon">
-                <a>123
-                </a>
+                <a>123</a>
               </li>
             </ul>
           </div>
