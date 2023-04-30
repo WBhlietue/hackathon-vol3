@@ -16,7 +16,7 @@ export function Header() {
       <div className="headerMainNav">
         <ul style={{display:menuHide? "none":"flex"}}>
           <li>
-            <a className="headerMainNavLink headerMainUnderLineAni" href={"index.html"}>
+            <a className="headerMainNavLink headerMainUnderLineAni" href={"index.html?page=Home"}>
               <div>Нүүр</div>
             </a>
           </li>

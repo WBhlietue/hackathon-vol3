@@ -48,28 +48,35 @@ function Login() {
                   <label>Password:</label>
                 </td>
                 <td>
-                    <div className="password-container">
+                  <div className="password-container">
                     <input
                       type={showPassword ? "text" : "password"}
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       placeholder="Password..."
                     />
-                    <i className="fa-solid fa-eye" onClick={(e)=>{
+                    <i
+                      className="fa-solid fa-eye"
+                      onClick={(e) => {
                         toggleShowPassword();
-                    }}></i>
-                    </div>
+                      }}
+                    ></i>
+                  </div>
                 </td>
               </tr>
               <tr>
+                <td></td>
                 <td>
-                  
-                </td>
-                <td>
-                     <Link to="/" type="submit" className="signup">Нэвтрэх</Link>
-                  <Link to="/payment" className="signup">
+                  <a
+                    href="index.html?page=Home"
+                    type="submit"
+                    className="signup"
+                  >
+                    Нэвтрэх
+                  </a>
+                  <a href="index.html?page=Payment" className="signup">
                     Бүртгүүлэх
-                  </Link>
+                  </a>
                 </td>
               </tr>
             </table>
