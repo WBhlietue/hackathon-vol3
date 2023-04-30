@@ -4,7 +4,7 @@ import { GetTestLogo } from "./GetTestLogo";
 import { useState } from "react";
 
 export function Header() {
-  const [menuHide, setMenuHide] = useState(true);
+  const [menuHide, setMenuHide] = useState(false);
   return (
     <div className="headerMain">
       <div className="headerMainLogoParent">
@@ -14,7 +14,7 @@ export function Header() {
         <div className="headerMainLogoText">Apollo</div>
       </div>
       <div className="headerMainNav">
-        <ul style={{display:menuHide? "none":"block"}}>
+        <ul style={{display:menuHide? "none":"flex"}}>
           <li>
             <Link className="headerMainNavLink headerMainUnderLineAni" to={"/"}>
               <div>Нүүр</div>
@@ -23,7 +23,7 @@ export function Header() {
           <li>
             <Link
               className="headerMainNavLink headerMainUnderLineAni"
-              to={"/orderList"}
+              to={"/About"}
             >
               <div>Бидний тухай</div>
             </Link>
@@ -31,9 +31,9 @@ export function Header() {
           <li>
             <Link
               className="headerMainNavLink headerMainUnderLineAni"
-              to={"/Test"}
+              to={"/FAQ"}
             >
-              <div>Зөвөлгөө</div>
+              <div>Нийтлэг асуулт</div>
             </Link>
           </li>
         </ul>
@@ -48,11 +48,11 @@ export function Header() {
         </div>
       </div>
       <div className="headerMainRight">
-        <div className="headerMainLogin headerMainUnderLineAni">Нэвтрэх</div>
-        <div className="headerMainRegister">
+        <Link to={"profile"} className="headerMainLogin headerMainUnderLineAni">Хэрэглэгч</Link>
+        <Link to={"placeWork"} className="headerMainRegister">
           <div>Aжил байршуулах</div>
           <div>&#8250;</div>
-        </div>
+        </Link>
       </div>
     </div>
   );

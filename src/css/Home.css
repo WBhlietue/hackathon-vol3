@@ -40,6 +40,7 @@
     justify-content: center;
     cursor: pointer;
     transition: all 0.3s;
+    text-decoration: none;
 }
 .homeMainPageBtn2{
     width: 24em;
@@ -113,4 +114,79 @@
 }
 .homeSecondPageSet1Item{
     margin: 1em;
+}
+
+.homeThirdPageMain{
+    /* background: linear-gradient(to, #FF5F6D, #FFC371); */
+    background: linear-gradient(180deg, #FF5F6D26 , #FFC37126);
+    padding: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.homeThirdPageMainText{
+    width: 30em;
+}
+.homeThirdPageMainImg{
+    width: 30em;
+    height: 18em;
+    background-image: url(../assets/images/icon2.svg);
+    border-radius: 2em;
+    background-size: cover;
+    background-position: center;
+}
+
+.homeSecondPageSet2ItemImg{
+    height: 5em;
+    width: 5em;
+    background-position: center;
+    background-size: cover;
+    margin-right: 1em;
+}
+.homeSecondPageSet2ItemImgData1{
+    background-image: url(../assets/images/user1.svg);
+}
+.homeSecondPageSet2ItemImgData2{
+    background-image: url(../assets/images/user2.svg);
+}
+.homeSecondPageSet2ItemImgData3{
+    background-image: url(../assets/images/user3.svg);
+}
+.homeSecondPageSet2Title{
+    font-size:2em;
+}
+.homeSecondPageSet2ItemList{
+    display: flex;
+    flex-direction: row;
+}
+.homeSecondPageSet2Item{
+    margin: 1em;
+    background-color: aliceblue;
+    border-radius: 1em;
+    padding: 0.5em;
+    width: 15em;
+}
+.homeSecondPageSet2Item1{
+    display: flex;
+}
+.homeSecondPageSet2Item2{
+    margin: 1em;
+}
+.homeSecondPageSet2Item3{
+    margin: 1em;
+}
+.homeSecondPageSet2Item hr{
+    margin: 1em;
+}
+
+.homeMainPageCenter2{
+    color: white;
+    width: 70%;
+    font-size: 1.5em;
+    margin-top: 4em;
+}
+.homeMainPagePersonParent2{
+    color: white;
+    font-size: 3em;
 }

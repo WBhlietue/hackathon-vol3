@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../css/Home.css";
 
-export function Home() {
+export function About() {
   return (
     <div>
       <div className="homeMainPage">
@@ -9,24 +9,13 @@ export function Home() {
           <div className="homeMainPagePersonParent haku-from-scale">
             <div className="homeMainPagePerson"></div>
           </div>
-          <div className="homeMainPageText1 haku-from-scale">
-            Тавтай морилно уу!
-          </div>
-          <br></br>
-          <div className="homeMainPageText1 haku-from-top">
-            Та юу сонирхож байна?
-          </div>
-          <Link to={"viewOrders"} className="homeMainPageBtn1 haku-from-right">
-            <span className="homeMainPageText2">Би ажил хайж байна</span>
-          </Link>
-          <Link to={"myOrders"} className="homeMainPageBtn1 haku-from-left">
-            <span className="homeMainPageText2">Би ажилтан хайж байна</span>
-          </Link>
-          <div className="homeMainPageBtn1 haku-from-right">
-            <span className="homeMainPageText2">Зүгээр л сонирхож байна</span>
-          </div>
-          <div className="homeMainPageBtn2 haku-from-left">
-            <span className="homeMainPageText2">Үргэлжлүүлэх</span>
+          <div className="homeMainPagePersonParent2">Сайна байна уу?</div>
+          <div className="homeMainPageCenter2">
+            Та манай сайтын тусламжтай өөрийн чөлөөт цагийг ашиглан богино болон
+            урт хугацааны ажил хийж орлого олох мөн нөгөө талаас хэрэгцээтэй
+            үедээ цагийн ажилтан хөлслөх боломжтой юм. сайтын найдвартай байдлын
+            хувьд хувь хүний үнэн бодит мэдээллээр бүртгэл үүсгэсэж нууцлалыг
+            хадгалана.
           </div>
         </div>
       </div>

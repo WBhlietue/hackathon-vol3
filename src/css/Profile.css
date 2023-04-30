@@ -74,6 +74,7 @@
     border: none;
     padding: 10px 20px;
     background-color: white;
+    cursor: pointer;
 }
 .LeftContainer input{
     background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%);

@@ -1,0 +1,55 @@
+.placeWorkMain{
+    background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 486.85%);
+    width: 100%;
+    height: fit-content;
+}
+.placeWorkMainInner{
+    width: 50em;
+    height: 30em;
+    margin: 3em auto;
+    padding: 3em;
+    border-radius: 3em;
+    background-color: white;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.placeWorkMainTitle{
+font-size: 2em;
+align-self: center;
+margin-bottom: 1em;
+}
+.placeWorkMainBody{
+    display: flex;
+    flex-direction: row;
+}
+.placeWorkMainForm{
+    flex:1
+}
+.placeWorkMainText{
+    margin: 0.1em;
+}
+.placeWorkMainInput{
+    margin: 0.1em;
+    width: 20em;
+    height: 2em;
+}
+.placeWorkMainCheck{
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+}
+.placeWorkMainBottom{
+    align-self: center;
+    width: 30em;
+    height: 3em;
+    background-color: #FF5F6D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    margin-top: 1em;
+    cursor: pointer;
+}

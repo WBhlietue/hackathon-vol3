@@ -6,9 +6,14 @@ import Layout from "./pages/Layout";
 import { Profile } from "./pages/Profile";
 import Test1 from "./pages/Test1";
 import Test2 from "./pages/Test2";
-import "./css/Haku-Ani.css"
+import "./css/Haku-Ani.css";
 import { MyOrder } from "./pages/MyOrders";
 import { MyOrderDetail } from "./pages/MyOrderDetail";
+import { ViewOrders } from "./pages/ViewOrders";
+import { ViewOrdersAdd } from "./pages/ViewOrdersAdd";
+import { PlaceWork } from "./pages/PlaceWork";
+import { About } from "./pages/About";
+import { FAQ } from "./pages/FAQ";
 const UserType = {
   worker: "1",
   part: "2",
@@ -70,19 +75,22 @@ setInterval(() => {
 }, 100);
 
 export default function App() {
-  useEffect(() => {
-    
-  }, [])
+  useEffect(() => {}, []);
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="test" element={<Test2 />} />
-          <Route path="profile" element={<Profile/>}/>
-          <Route path="orderList" element={<GetOrderList/>}/>
-          <Route path="myOrders" element={<MyOrder/>}/>
-          <Route path="orderDetail/:id" element={<MyOrderDetail/>}/>
+          <Route path="viewOrders" element={<ViewOrders />} />
+          <Route path="profile" element={<Profile />} />
+          <Route path="orderList" element={<GetOrderList />} />
+          <Route path="myOrders" element={<MyOrder />} />
+          <Route path="orderDetail/:id" element={<MyOrderDetail />} />
+          <Route path="addOrderRequest/:id" element={<ViewOrdersAdd />} />
+          <Route path="placeWork" element={<PlaceWork />} />
+          <Route path="About" element={<About/>}></Route>
+          <Route path="FAQ" element={<FAQ/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

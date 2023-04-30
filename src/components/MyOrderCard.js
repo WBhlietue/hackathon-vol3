@@ -37,7 +37,7 @@ export function MyOrderCard(props) {
         </div>
         <div className="myOrderCardCenterSkill">
           <div className="myOrderCardCenterSkillText">
-            skills required: {skills.length == 0 ? "none" : ""}
+            Хэрэгтэй чадварууд: {skills.length == 0 ? "байхгүй" : ""}
           </div>
           <ul>{skillsList}</ul>
         </div>
@@ -48,14 +48,11 @@ export function MyOrderCard(props) {
             <GetTestLogo />
           </div>
           <div className="myOrderCardBottomRequestText">
-            request: {props.data.requests.length}
+            Хүсэлтийн тоо: {props.data.requests.length}
           </div>
         </div>
-        <Link
-          className="myOrderCardBtn"
-          to={"/orderDetail/" + props.data.id}
-        >
-          View Order Detail
+        <Link className="myOrderCardBtn" to={"/orderDetail/" + props.data.id}>
+          Үнийн санал харах
         </Link>
       </div>
     </div>

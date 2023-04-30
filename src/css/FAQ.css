@@ -1,0 +1,40 @@
+.FAQMain{
+    display: flex;
+    flex-direction: column;
+}
+.FAQItemMain{
+    margin: 2em 20em;
+    background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 486.85%);
+    padding: 1em;
+    color: white;
+    border-radius: 2em;
+}
+.FAQItem1{
+    display: flex;
+}
+.FAQItemIcon1{
+    background-image: url(../assets/images/quest.svg);
+    background-size: cover;
+    background-position: center;
+    width: 2em;
+    height:2em;
+    margin: 1em;
+}
+.FAQItemText1{
+    align-self: center;
+}
+.FAQItem2{
+    display: flex;
+}
+.FAQItemIcon2{
+    background-image: url(../assets/images/done.svg);
+    background-size: cover;
+    background-position: center;
+    width: 2em;
+    height:2em;
+    margin: 1em;
+    margin-left: 3em;
+}
+.FAQItemText2{
+    align-self: center;
+}

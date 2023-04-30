@@ -1,4 +1,4 @@
-.myOrderCardMain{
+.viewOrderCardMain{
     
 background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 486.85%);
     padding: 1em;
@@ -10,26 +10,26 @@ background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 486.85%);
     border-radius: 1em;
     color: white;
 }
-.myOrderCardTopParent{
+.viewOrderCardTopParent{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 
-.myOrderCardCenterParent{
+.viewOrderCardCenterParent{
     margin: 1em;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
 }
-.myOrderCardBottomParent{
+.viewOrderCardBottomParent{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.myOrderCardBtn{
+.viewOrderCardBtn{
     background: white;
     color: black;
     width: 15em;
@@ -45,81 +45,137 @@ background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 486.85%);
     margin-right: 1em;
 }
 
-.myOrderCardBtn:hover{
+.viewOrderCardBtn:hover{
     transform: scale(1.1);
 }
 
-.myOrderCardCenterType{
+.viewOrderCardCenterType{
     color: white;
     font-weight: bold;
 }
 
-.myOrderCardTopParent{
+.viewOrderCardTopParent{
     
 }
-.myOrderCardTopDatas{
+.viewOrderCardTopDatas{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.myOrderCardTopIcon{
+.viewOrderCardTopIcon{
     width: 2em;
     height: 2em;
     margin-right: 1em;
 }
-.myOrderCardTopOrderNum{
+.viewOrderCardTopOrderNum{
     font-size: 1.3em;
 }
-.myOrderCardTopDate{
+.viewOrderCardTopDate{
     font-size: 1.1em;
 }
-.myOrderCardCenterName{
+.viewOrderCardCenterName{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.myOrderCardCenterNameText{
+.viewOrderCardCenterNameText{
     font-size: 2em;
     margin-right: 1em;
 }
-.myOrderCardCenterType{
+.viewOrderCardCenterType{
     background-color: rgb(255, 255, 255);
     border-radius: 10em;
     color:black;
     padding: 0.5em 1em;
     font-weight: bold;
 }
-.myOrderCardCenterDescrition{
+.viewOrderCardCenterDescrition{
     font-size: 1.3em;
     margin: 0.5em 0em;
 }
-.myOrderCardCenterSkill{
+.viewOrderCardCenterSkill{
 
 }
-.myOrderCardCenterSkill li{
+.viewOrderCardCenterSkill li{
     font-size: 1.1em;
     font-weight: bold;
     color: rgb(214, 214, 214);
 }
-.myOrderCardCenterSkillText{
+.viewOrderCardCenterSkillText{
     font-size: 1.2em;
     color:rgb(255, 255, 255);
     font-weight: bold;
 }
-.myOrderCardBottomParent{
+.viewOrderCardBottomParent{
 
 }
-.myOrderCardBottomRequest{
+.viewOrderCardBottomRequest{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.myOrderCardBottomRequestIcon{
+.viewOrderCardBottomRequestIcon{
     width: 2em;
     height: 2em;
     margin-right: 0.5em;
 }
-.myOrderCardBottomRequestText{
+.viewOrderCardBottomRequestText{
     font-size: 1.3em;
     color: rgb(255, 255, 255);
+}
+
+
+
+.viewOrderCardInputPrice{
+    width: 50em;
+    height: 30em;
+    background-color: #FF5F6D;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.viewOrderCardInputPriceTitle{
+    font-size: 2em;
+    align-self: center;
+}
+.viewOrderCardInputPriceText{
+    margin: 0.5em;
+}
+.viewOrderCardInputPricePrice{
+    margin: 0.5em;
+}
+.viewOrderCardInputPricePriceText{
+
+}
+.viewOrderCardInputPricePriceImput{
+    width: 20em;
+    height: 2em;
+    border-radius: 100em;
+    border:  none;
+    margin: 0.5em;
+    padding: 0 1em;
+}
+.viewOrderCardInputPricePriceImput:focus{
+    outline: none;
+    border: none;
+}
+.viewOrderCardInputPriceSend{
+    align-self: flex-end;
+    justify-self: flex-end;
+    width: 20em;
+    height: 3em;
+    border-radius: 1.2em;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }

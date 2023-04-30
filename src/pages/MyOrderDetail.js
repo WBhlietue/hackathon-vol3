@@ -44,7 +44,7 @@ export function MyOrderDetail() {
             </div>
             <div className="orderDetailRightCenterSkill">
               <div className="orderDetailRightCenterSkillText">
-                skills required: {skills.length == 0 ? "none" : ""}
+              Хэрэгтэй чадварууд: {skills.length == 0 ? "байхгүй" : ""}
               </div>
               <ul>{skillsList}</ul>
             </div>
