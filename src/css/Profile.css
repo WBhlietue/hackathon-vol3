@@ -1,5 +1,106 @@
 .ProfileContain{
-    background-color: aquamarine;
+    background-color: white;
     margin: 0;
     padding: 0;
+    height: 41rem;
+}
+
+.prohead{
+    background-color: #FF5F6D;
+    margin: 0;
+    padding: 0;
+    height: 6rem;
+}
+.profilesection img{
+    width: 150px;
+    height: 150px;
+    margin: 25px 0 0 100px;
+    border: solid black;
+    border-radius: 50%;
+    border-width: 2px;
+}
+
+.LeftContainer{
+    border-radius: 20px;
+    margin: 0 0 50px 200px;
+    width: 500px;
+    height: 450px;
+    background-color: #FF5F6D;
+    background:linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%);
+}
+.headerrr{
+    margin-left: 150px;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /* background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%); */
+    color: black;
+}
+
+.LeftContainer button{
+    
+    border-radius: 10px;
+    position: relative;
+    bottom: 25px;
+    left: 350px;
+}
+.RightContainer input{
+    background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%);
+    /* color: black;  */
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.RightContainer img{
+    list-style-type: none;
+    width: 15px;
+    height: 15px;
+}
+.RightContainer li{
+    
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+.RightContainer button{
+    border-radius: 10px;
+    position: relative;
+    top: 230px;
+    left: 350px;
+}
+.edithBtn{
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+}
+.LeftContainer input{
+    background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%);
+    /* color: black;  */
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.LeftContainer img{
+    list-style-type: none;
+    width: 15px;
+    height: 15px;
+}
+.LeftContainer li{
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+.RightContainer{
+    position: relative;
+    bottom: 500px;
+    left: 250px;
+    border-radius: 20px;
+    margin: 20px 0 50px 600px;
+    width: 500px;
+    height: 450px;
+    background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%);
 }
