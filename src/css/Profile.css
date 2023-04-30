@@ -2,7 +2,7 @@
     background-color: white;
     margin: 0;
     padding: 0;
-    height: 41rem;
+    height: 51rem;
 }
 
 .prohead{
@@ -24,12 +24,12 @@
     border-radius: 20px;
     margin: 0 0 50px 200px;
     width: 500px;
-    height: 450px;
+    height: 550px;
     background-color: #FF5F6D;
     background:linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%);
 }
 .headerrr{
-    margin-left: 150px;
+    margin-left: 1em;
     padding-top: 20px;
     font-weight: bold;
     /* background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%); */
@@ -46,6 +46,7 @@
 .RightContainer input{
     /* background: linear-gradient(180deg, #FF5F6D 0%, #FF5F6D 400.63%); */
     margin-left: 1em;
+    padding: 0.5em;
     border-radius: 0.5em;
     transform: translateY(-15%);
     /* color: black;  */
@@ -69,7 +70,7 @@
 .RightContainer button{
     border-radius: 10px;
     position: relative;
-    top: 230px;
+    top: 280px;
     left: 350px;
 }
 .edithBtn{
@@ -77,12 +78,14 @@
     padding: 10px 20px;
     background-color: white;
     cursor: pointer;
+    margin: 1em;
 }
 .LeftContainer input{
     /* background: linear-gradient(180deg, #FF5F6D 0%, #FF5F6D 400.63%); */
     margin-left: 1em;
     border-radius: 0.5em;
     transform: translateY(-15%);
+    padding: 0.5em;
     /* color: black;  */
     border-bottom: 1px solid black;
     border-top: none;
@@ -102,11 +105,12 @@
 }
 .RightContainer{
     position: relative;
-    bottom: 500px;
+    top: -600px;
     left: 250px;
     border-radius: 20px;
-    margin: 20px 0 50px 600px;
+
+    margin: 0px 0px 0px 600px;
     width: 500px;
-    height: 450px;
+    height: 550px;
     background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%);
 }
