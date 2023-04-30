@@ -1,0 +1,57 @@
+[
+    {
+        "AjiltanId": "AJ001",
+        "AjiltanNer": "Dewjrekh",
+        "AjiltanOwog": "Tsogzol",
+        "Email": "dewjrekh@gmail.com",
+        "GeriinHayg": "SB 1r horoo, 21, 12",
+        "NuutsUg": "nuutslagug",
+        "ShaardlagataiHolbogd": "tsogzol@gmail.com",
+        "TsalingiinMedeelel": "400.000",
+        "Utas": "95132123"
+    },
+    {
+        "AjiltanId": "AJ002",
+        "AjiltanNer": "Munkhjin",
+        "AjiltanOwog": "Baatarkhuu",
+        "Email": "munkhjin@gmail.com",
+        "GeriinHayg": "SHD 15-r khoroo 41,24",
+        "NuutsUg": "nuutslagug",
+        "ShaardlagataiHolbogd": "baatarkhuu@gmail.com",
+        "TsalingiinMedeelel": "400.000",
+        "Utas": "98123242"
+    },
+    {
+        "AjiltanId": "AJ003",
+        "AjiltanNer": "Jawkhlan",
+        "AjiltanOwog": "Samand",
+        "Email": "jawkhlan@gmail.com",
+        "GeriinHayg": "BZD 15r horoo, 21, 112",
+        "NuutsUg": "jawkhlan123",
+        "ShaardlagataiHolbogd": "samand@gmail.com",
+        "TsalingiinMedeelel": "400.000",
+        "Utas": "94245212"
+    },
+    {
+        "AjiltanId": "AJ004",
+        "AjiltanNer": "Sambuu",
+        "AjiltanOwog": "Demberel",
+        "Email": "sambuu@gmail.com",
+        "GeriinHayg": "BZD 14r horoo, 2-21, 12",
+        "NuutsUg": "nuutslagug",
+        "ShaardlagataiHolbogd": "demberel@gmail.com",
+        "TsalingiinMedeelel": "400.000",
+        "Utas:": "99881123"
+    },
+    {
+        "AjiltanId": "AJ005",
+        "AjiltanNer": "Usukhbayar",
+        "AjiltanOwog": "Saikhantamir",
+        "Email": "usuhuu@gmail.com",
+        "GeriinHayg": "SHD 19r horoo, 2-21, 12",
+        "NuutsUg": "homoburhan123",
+        "ShaardlagataiHolbogd": "saihnaa@gmail.com",
+        "TsalingiinMedeelel": "400.000",
+        "Utas": "94205412"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "Email": "jad@gmail.com",
+        "HereglegchID": "CI001",
+        "HereglegchNer": "Jad",
+        "HereglegchOwog": "Selem",
+        "NuutsUg": "selem123",
+        "ShaardlagataiHolbogd": "selem@gmail.com",
+        "Utas": "99871232",
+        "geriinHayg": "SB 12-khoroo 2, 17"
+    },
+    {
+        "Email": "pagma@gmail.com",
+        "HereglegchID": "CI004",
+        "HereglegchNer": "Pagma",
+        "HereglegchOwog": "Dorj",
+        "NuutsUg": "pagma123",
+        "ShaardlagataiHolbogd": "dorj@gmail.com",
+        "Utas": "98781232",
+        "geriinHayg": "SHD 25-khoroo 12, 17"
+    },
+    {
+        " Email": "ganaa@gmail.com",
+        "HereglegchID": "CI003",
+        "HereglegchNer": "Ganaa",
+        "HereglegchOwog": "Molsukh",
+        "NuutsUg": "ganaa123",
+        "ShaardlagataiHolbogd": "molsukh@gmail.com",
+        "Utas": "94231265",
+        "geriinHayg": "BZD 2-khoroo 52, 17"
+    },
+    {
+        "  Email": "gombo@gmail.com",
+        "HereglegchID": "CI004",
+        "HereglegchNer": "Suren",
+        "HereglegchOwog": "Gombo",
+        "NuutsUg": "gombo123",
+        "ShaardlagataiHolbogd": "gombo@gmail.com",
+        "Utas": "96452354",
+        "geriinHayg": "Nalaikh 1-khoroo 32, 17"
+    },
+    {
+        "Email": "bayar@gmail.com",
+        "HereglegchID": "CI005",
+        "HereglegchNer": "bayar",
+        "HereglegchOwog": "Molom",
+        "NuutsUg": "bayar123@gmail.com",
+        "ShaardlagataiHolbogd": "molom@gmail.com",
+        "Utas": "86964353",
+        "geriinHayg": "SHD 24-r khoroo 11, 23"
+    }
+]

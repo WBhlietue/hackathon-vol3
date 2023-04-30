@@ -1,0 +1,47 @@
+[
+    {
+        "AjiltanID": "AJ001",
+        "Hayg": "SHD 19-khoroo 12-32, 12",
+        "HereglegchID": "CI001",
+        "Ognoo": "2023-04-27",
+        "Unelgee": "ih lag bailaaaa",
+        "ZahialgaID": "ZI001",
+        "ZahialgaLawlahID": "ZL001"
+    },
+    {
+        "AjiltanID": "AJ002",
+        "Hayg": "BZD 13-khoroo 32, 17",
+        "HereglegchID": "CI002",
+        "Ognoo": "2023-04-27",
+        "Unelgee": "ih taalagdlaa",
+        "ZahialgaID": "ZI002",
+        "ZahialgaLawlahID": "ZL001"
+    },
+    {
+        "AjiltanID": "AJ003",
+        "Hayg": "SHD 25-r khoroo 51, 23",
+        "HereglegchID": "CI003",
+        "Ognoo": "2023-04-28",
+        "Unelgee": "gomdoltoii bainaa ",
+        "ZahialgaID": "ZI003",
+        "ZahialgaLawlahID": "ZL002"
+    },
+    {
+        "AjiltanID": "AJ004",
+        "Hayg": "Nalaikh 1-khoroo 32, 17",
+        "HereglegchID": "CI004",
+        "Ognoo": "2023-04-28",
+        "Unelgee": "ih setgeleeree umaaaa",
+        "ZahialgaID": "ZI004",
+        "ZahialgaLawlahID": "ZL003"
+    },
+    {
+        "AjiltanID": "AJ005",
+        " Hayg": "SHD 24-r khoroo 11, 23",
+        "HereglegchID": "CI005",
+        "Ognoo": "2023-04-29",
+        "Unelgee": "yanztaaishuu",
+        "ZahialgaID": "ZI005",
+        "ZahialgaLawlahID": "ZL004"
+    }
+]
