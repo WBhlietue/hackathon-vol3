@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.06708fd8.css",
+    "main.js": "./static/js/main.0b91a617.js",
+    "static/media/homePerson.svg": "./static/media/homePerson.f24494c23910d387307a.svg",
+    "static/media/Ubuntu-Regular.ttf": "./static/media/Ubuntu-Regular.d89eda6750f6960a7456.ttf",
+    "static/media/ajil3.svg": "./static/media/ajil3.7d808c53123f6285d530.svg",
+    "static/media/ajil1.svg": "./static/media/ajil1.341fbb4c15255c213c4f.svg",
+    "static/media/ajil2.svg": "./static/media/ajil2.7d317f31fe4ca34d6e8b.svg",
+    "static/media/ajil4.svg": "./static/media/ajil4.e7870f51ed8b46cba164.svg",
+    "static/media/homeBG.svg": "./static/media/homeBG.44d1e2e65e55cbf12781.svg",
+    "static/media/fiveStar.svg": "./static/media/fiveStar.83bc5182f96826311111.svg",
+    "index.html": "./index.html",
+    "main.06708fd8.css.map": "./static/css/main.06708fd8.css.map",
+    "main.0b91a617.js.map": "./static/js/main.0b91a617.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06708fd8.css",
+    "static/js/main.0b91a617.js"
+  ]
+}
