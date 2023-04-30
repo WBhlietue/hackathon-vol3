@@ -14,6 +14,8 @@ import { ViewOrdersAdd } from "./pages/ViewOrdersAdd";
 import { PlaceWork } from "./pages/PlaceWork";
 import { About } from "./pages/About";
 import { FAQ } from "./pages/FAQ";
+import Login from "./pages/Login";
+import Payment from "./pages/Payment";
 const UserType = {
   worker: "1",
   part: "2",
@@ -91,6 +93,10 @@ export default function App() {
           <Route path="placeWork" element={<PlaceWork />} />
           <Route path="About" element={<About/>}></Route>
           <Route path="FAQ" element={<FAQ/>}/>
+          <Route path="orderList" element={<GetOrderList/>}/>
+          <Route path="orderDetail/:id" element={<MyOrderDetail/>}/>
+          <Route path="login" element={<Login />} />
+          <Route path="payment" element={<Payment />} />
         </Route>
       </Routes>
     </BrowserRouter>

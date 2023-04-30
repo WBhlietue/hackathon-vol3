@@ -50,8 +50,10 @@ export function Header() {
       <div className="headerMainRight">
         <Link to={"profile"} className="headerMainLogin headerMainUnderLineAni">Хэрэглэгч</Link>
         <Link to={"placeWork"} className="headerMainRegister">
+        <div className="headerMainRegister">
           <div>Aжил байршуулах</div>
           <div>&#8250;</div>
+          </div>
         </Link>
       </div>
     </div>

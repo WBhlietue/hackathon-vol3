@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(178deg, white 43.24%, #ffc371 151.05%);
+}
+h2{
+    width:100%;
+
+}
+.container-element{
+    background: linear-gradient(180deg, #ff5f6d 0%, #ffc371 400.63%);
+    margin:auto;
+    align-items: center;
+    padding: 20px;
+}
+.bank-acc{
+    width: 80%;
+    align-self: center;
+    margin: auto;
+    margin-top: 10px;
+}
+input[type="text"]{
+    margin-top: 10px;
+}
