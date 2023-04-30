@@ -1,5 +1,5 @@
 import "../css/Header.css";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 import { GetTestLogo } from "./GetTestLogo";
 import { useState } from "react";
 
@@ -16,25 +16,25 @@ export function Header() {
       <div className="headerMainNav">
         <ul style={{display:menuHide? "none":"flex"}}>
           <li>
-            <Link className="headerMainNavLink headerMainUnderLineAni" to={"/"}>
+            <a className="headerMainNavLink headerMainUnderLineAni" href={"index.html"}>
               <div>Нүүр</div>
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               className="headerMainNavLink headerMainUnderLineAni"
-              to={"/About"}
+              href={"index.html?page=About"}
             >
               <div>Бидний тухай</div>
-            </Link>
+            </a>
           </li>
           <li>
-            <Link
+            <a
               className="headerMainNavLink headerMainUnderLineAni"
-              to={"/FAQ"}
+              href={"index.html?page=FAQ"}
             >
               <div>Нийтлэг асуулт</div>
-            </Link>
+            </a>
           </li>
         </ul>
         <div
@@ -48,11 +48,11 @@ export function Header() {
         </div>
       </div>
       <div className="headerMainRight">
-        <Link to={"profile"} className="headerMainLogin headerMainUnderLineAni">Хэрэглэгч</Link>
-        <Link to={"placeWork"} className="headerMainRegister">
+        <a href={"index.html?page=Profile"} className="headerMainLogin headerMainUnderLineAni">Хэрэглэгч</a>
+        <a href={"index.html?page=PlaceWork"} className="headerMainRegister">
           <div>Aжил байршуулах</div>
           <div>&#8250;</div>
-        </Link>
+        </a>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import data from "../json/myOrderCardTestData.json";
 import "../css/OrderDetail.css";
 import { OrderSubmitedWorkerCard } from "../components/OrderSubmitedWorkerCard";
 export function MyOrderDetail() {
-  const orderID = useParams().id;
+  const orderID = new URLSearchParams(window.location.search).get("id");
   let d = "5";
   for (let i of data) {
     if (i.id == orderID) {

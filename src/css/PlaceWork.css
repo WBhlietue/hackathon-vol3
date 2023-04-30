@@ -2,6 +2,7 @@
     background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 486.85%);
     width: 100%;
     height: fit-content;
+    padding: 1em;
 }
 .placeWorkMainInner{
     width: 50em;

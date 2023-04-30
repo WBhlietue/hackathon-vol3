@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "../components/Link";
 import "../css/Home.css";
 
 export function Home() {
@@ -16,12 +17,12 @@ export function Home() {
           <div className="homeMainPageText1 haku-from-top">
             Та юу сонирхож байна?
           </div>
-          <Link to={"viewOrders"} className="homeMainPageBtn1 haku-from-right">
+          <a  href="index.html?page=ViewOrders" className="homeMainPageBtn1 haku-from-right">
             <span className="homeMainPageText2">Би ажил хайж байна</span>
-          </Link>
-          <Link to={"myOrders"} className="homeMainPageBtn1 haku-from-left">
+          </a>
+          <a href={"index.html?page=MyOrder"} className="homeMainPageBtn1 haku-from-left">
             <span className="homeMainPageText2">Би ажилтан хайж байна</span>
-          </Link>
+          </a>
           <div className="homeMainPageBtn1 haku-from-right">
             <span className="homeMainPageText2">Зүгээр л сонирхож байна</span>
           </div>

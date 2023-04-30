@@ -14,6 +14,8 @@ import { ViewOrdersAdd } from "./pages/ViewOrdersAdd";
 import { PlaceWork } from "./pages/PlaceWork";
 import { About } from "./pages/About";
 import { FAQ } from "./pages/FAQ";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 const UserType = {
   worker: "1",
   part: "2",
@@ -75,6 +77,8 @@ setInterval(() => {
 }, 100);
 
 export default function App() {
+  const page = new URLSearchParams(window.location.search).get("page");
+
   return (
     // <BrowserRouter>
     //   <Routes>
@@ -93,6 +97,35 @@ export default function App() {
     //     </Route>
     //   </Routes>
     // </BrowserRouter>
-    <Home/>
+    <div>
+      <Header></Header>
+      {page == "Home" ? (
+        <Home />
+      ) : page == "About" ? (
+        <About />
+      ) : page == "FAQ" ? (
+        <FAQ />
+      ) : page == "ViewOrders" ? (
+        <ViewOrders />
+      ) : page == "Profile" ? (
+        <Profile />
+      ) : page == "OrderList" ? (
+        <GetOrderList />
+      ) : page == "MyOrder" ? (
+        <MyOrder />
+      ) : page == "OrderDetail" ? (
+        <MyOrderDetail />
+      ) : page == "AddOrder" ? (
+        <ViewOrdersAdd />
+      ) : page == "PlaceWork" ? (
+        <PlaceWork />
+      ) : page=="AddOrderRequest"?
+        <ViewOrdersAdd/>:
+      
+      (
+        <Home/>
+      )}
+      <Footer></Footer>
+    </div>
   );
 }

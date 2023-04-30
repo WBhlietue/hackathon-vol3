@@ -48,9 +48,9 @@ export function ViewOrderCard(props) {
         <div className="viewOrderCardBottomRequest">
           <div className="viewOrderCardTopDate">{props.data.date}</div>
         </div>
-        <Link className="viewOrderCardBtn" to={"/addOrderRequest/" + props.data.id}>
+        <a className="viewOrderCardBtn" href={"index.html?page=AddOrderRequest&id=" + props.data.id}>
           Үнийн санал оруулах
-        </Link>
+        </a>
       </div>
     </div>
   );

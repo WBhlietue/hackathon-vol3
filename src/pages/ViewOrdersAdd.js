@@ -3,7 +3,7 @@ import data from "../json/viewOrderCardTestData.json";
 import "../css/ViewOrderCard.css"
 import { useParams } from "react-router-dom";
 export function ViewOrdersAdd(props) {
-  const orderID = useParams().id;
+  const orderID = new URLSearchParams(window.location.search).get("id");
   let d = "5";
   for (let i of data) {
     if (i.id == orderID) {

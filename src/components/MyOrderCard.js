@@ -51,9 +51,12 @@ export function MyOrderCard(props) {
             Хүсэлтийн тоо: {props.data.requests.length}
           </div>
         </div>
-        <Link className="myOrderCardBtn" to={"/orderDetail/" + props.data.id}>
+        <a
+          className="myOrderCardBtn"
+          href={"index.html?page=OrderDetail&id=" + props.data.id}
+        >
           Үнийн санал харах
-        </Link>
+        </a>
       </div>
     </div>
   );
