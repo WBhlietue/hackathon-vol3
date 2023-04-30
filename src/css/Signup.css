@@ -1,0 +1,125 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+label {
+  color: #333333;
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: auto;
+  align-items: end;
+}
+
+button[type="submit"]:hover {
+  background-color: #555555;
+}
+
+body {
+  background: linear-gradient(178deg, white 43.24%, #ffc371 151.05%);
+}
+.left-column {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  flex: 1;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.left-column img {
+  width: 100%;
+}
+.grid-container {
+  display: flex;
+  width: 60%;
+  height: fit-content;
+  background: linear-gradient(180deg, #ff5f6d 0%, #ffc371 400.63%);
+  margin: auto;
+  border-radius: 15px;
+}
+
+.grid-item {
+  display: block;
+  width: 100%;
+  flex: 1;
+}
+table {
+  width: fit-content;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+
+label {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  width: 5%;
+  text-align: right;
+  margin-bottom: 10px;
+}
+.password-container {
+  width: 100%;
+  position: relative;
+}
+.fa-eye {
+  position: absolute;
+  top: 20%;
+  right: 4%;
+  cursor: pointer;
+  color: lightgray;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: white;
+  width: 95%;
+}
+input[type="email"] {
+  margin-right: 30px;
+}
+button[type="submit"] {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 40%;
+  text-align: center;
+}
+
+button[type="submit"]:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.signup {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 50%;
+  text-align: center;
+  margin: 10px;
+}
+
+.signup:hover {
+  background-color: #555555;
+  color: white;
+}

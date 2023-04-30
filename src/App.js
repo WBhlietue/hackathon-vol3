@@ -16,6 +16,7 @@ import { About } from "./pages/About";
 import { FAQ } from "./pages/FAQ";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
+import Login from "./pages/Login";
 const UserType = {
   worker: "1",
   part: "2",
@@ -123,7 +124,7 @@ export default function App() {
         <ViewOrdersAdd/>:
       
       (
-        <Home/>
+        <Login/>
       )}
       <Footer></Footer>
     </div>
