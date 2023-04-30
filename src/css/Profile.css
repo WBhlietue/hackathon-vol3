@@ -31,10 +31,9 @@
 .headerrr{
     margin-left: 150px;
     padding-top: 20px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     /* background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%); */
-    color: black;
+    color: white;
 }
 
 .LeftContainer button{
@@ -45,7 +44,10 @@
     left: 350px;
 }
 .RightContainer input{
-    background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%);
+    /* background: linear-gradient(180deg, #FF5F6D 0%, #FF5F6D 400.63%); */
+    margin-left: 1em;
+    border-radius: 0.5em;
+    transform: translateY(-15%);
     /* color: black;  */
     border-bottom: 1px solid black;
     border-top: none;
@@ -77,7 +79,10 @@
     cursor: pointer;
 }
 .LeftContainer input{
-    background: linear-gradient(180deg, #FF5F6D 0%, #FFC371 400.63%);
+    /* background: linear-gradient(180deg, #FF5F6D 0%, #FF5F6D 400.63%); */
+    margin-left: 1em;
+    border-radius: 0.5em;
+    transform: translateY(-15%);
     /* color: black;  */
     border-bottom: 1px solid black;
     border-top: none;
