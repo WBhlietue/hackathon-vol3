@@ -13,7 +13,7 @@
     display: flex;
 }
 .FAQItemIcon1{
-    background-image: url(../assets/images/quest.svg);
+    background-image: url(../assets/images/int.png);
     background-size: cover;
     background-position: center;
     width: 2em;
@@ -25,16 +25,21 @@
 }
 .FAQItem2{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .FAQItemIcon2{
-    background-image: url(../assets/images/done.svg);
+    background-image: url(../assets/images/check.png);
     background-size: cover;
     background-position: center;
     width: 2em;
     height:2em;
     margin: 1em;
-    margin-left: 3em;
+    margin-left: 0em;
 }
 .FAQItemText2{
     align-self: center;
+    height: 5em;
+    width: 40em;
 }
