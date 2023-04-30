@@ -4,6 +4,37 @@
         flex-direction: column;
         list-style-type: none;
         flex: 1;
+        height: 10em;
+        margin-top: 10em;
+        align-items: flex-end;
+    }
+    .headerMainNav ul{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        border-radius: 2em;
+        z-index: 1;
+    }
+    .headerMainNav ul li{
+        position: relative;
+        left:-1em;
+    }
+    .headerMainNavBtn{
+        display: block;
+        transform: rotateZ(90deg);
+        margin:-0.5em 1em;
+        font-size: 2em;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:1000px) {
+    .headerMainNav ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        flex: 1;
+    }
+    .headerMainNavBtn{
+        display: none;
     }
 }
 .headerMain{
@@ -14,6 +45,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1em;
+    overflow: visible;
 }
 .headerMainLogoParent{
     display: flex;
@@ -32,13 +64,8 @@
     width: 2.5em;
     height: 2.5em;
 }
-.headerMainNav{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    flex: 1;
-}
-.headerMainNav li{
+
+.headerMainNav ul li{
     min-width: 5em;
     height: 2.5em;
     background-color: white;
