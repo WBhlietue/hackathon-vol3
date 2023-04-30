@@ -9,7 +9,7 @@ export function Header() {
     <div className="headerMain">
       <div className="headerMainLogoParent">
         <div className="headerMainLogo">
-          <GetTestLogo />
+          <img src={require("../assets/images/rocket.png")} width="100%" height="100%"></img>
         </div>
         <div className="headerMainLogoText">Apollo</div>
       </div>
