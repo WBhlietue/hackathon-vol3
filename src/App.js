@@ -17,6 +17,7 @@ import { FAQ } from "./pages/FAQ";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import Login from "./pages/Login";
+import Payment from "./pages/Payment";
 const UserType = {
   worker: "1",
   part: "2",
@@ -112,6 +113,8 @@ export default function App() {
         <Profile />
       ) : page == "OrderList" ? (
         <GetOrderList />
+      ) : page == "Payment" ? (
+        <Payment />
       ) : page == "MyOrder" ? (
         <MyOrder />
       ) : page == "OrderDetail" ? (
@@ -120,11 +123,10 @@ export default function App() {
         <ViewOrdersAdd />
       ) : page == "PlaceWork" ? (
         <PlaceWork />
-      ) : page=="AddOrderRequest"?
-        <ViewOrdersAdd/>:
-      
-      (
-        <Login/>
+      ) : page == "AddOrderRequest" ? (
+        <ViewOrdersAdd />
+      ) : (
+        <Login />
       )}
       <Footer></Footer>
     </div>
