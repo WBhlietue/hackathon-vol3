@@ -110,99 +110,86 @@ export function About() {
             >
               <div className="homeSecondPageSet2Item1">
                 <div className="homeSecondPageSet2ItemImg homeSecondPageSet2ItemImgData1"></div>
-                HI
+                Бат
               </div>
               <hr />
               <div className="homeSecondPageSet2Item2">
-                HI
+                Чадвар
+                
                 <br />
-                HI
+                -Шал гоё угаадаг
                 <br />
-                HI
+                -Хурдан гүйдэг
                 <br />
-                HI
+                -Хоол хийх
                 <br />
               </div>
               <hr />
               <div className="homeSecondPageSet2Item3">
-                HI
+                Танилцуулга
                 <br />
-                HI
-                <br />
-                HI
-                <br />
-                HI
-                <br />
+                Би таньд гоё гоё юмнууд хйиж өгж чадна
               </div>
 
-              <div className="homeSecondPageSet2ItemText">Тавилга угсралт</div>
-            </div>
+             </div>
             <div
               className="homeSecondPageSet2Item haku-from-bottom"
               haku-ani-delay={300}
             >
               <div className="homeSecondPageSet2Item1">
-                <div className="homeSecondPageSet2ItemImg homeSecondPageSet2ItemImgData1"></div>
-                HI
+                <div className="homeSecondPageSet2ItemImg homeSecondPageSet2ItemImgData2"></div>
+                Дорж
               </div>
               <hr />
               <div className="homeSecondPageSet2Item2">
-                HI
+                Чадвар
+                
                 <br />
-                HI
+                -Шал гоё угаадаг
                 <br />
-                HI
+                -Хурдан гүйдэг
                 <br />
-                HI
+                -Хоол хийх
                 <br />
               </div>
               <hr />
               <div className="homeSecondPageSet2Item3">
-                HI
+                Танилцуулга
                 <br />
-                HI
-                <br />
-                HI
-                <br />
-                HI
-                <br />
+                Би таньд гоё гоё юмнууд хйиж өгж чадна
               </div>
 
-              <div className="homeSecondPageSet2ItemText">Тавилга угсралт</div>
             </div>
             <div
               className="homeSecondPageSet2Item haku-from-bottom"
               haku-ani-delay={500}
             >
               <div className="homeSecondPageSet2Item1">
-                <div className="homeSecondPageSet2ItemImg homeSecondPageSet2ItemImgData1"></div>
-                HI
+                <div className="homeSecondPageSet2ItemImg homeSecondPageSet2ItemImgData3"></div>
+                Өсөхөө
               </div>
               <hr />
               <div className="homeSecondPageSet2Item2">
-                HI
+                Чадвар
+                
                 <br />
-                HI
+                -Шал гоё угаадаг
                 <br />
-                HI
+                -Хурдан гүйдэг
                 <br />
-                HI
+                -Хоол хийх
                 <br />
               </div>
               <hr />
               <div className="homeSecondPageSet2Item3">
-                HI
+                Танилцуулга
                 <br />
-                HI
-                <br />
-                HI
-                <br />
-                HI
-                <br />
+                Би таньд гоё гоё юмнууд хйиж өгж чадна
               </div>
 
               <div className="homeSecondPageSet2ItemText">Тавилга угсралт</div>
             </div>
+            
           </div>
         </div>
       </div>

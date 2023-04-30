@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.929b273d.css",
-    "main.js": "./static/js/main.75bd6098.js",
+    "main.js": "./static/js/main.03fb1ee3.js",
     "static/media/hoho.png": "./static/media/hoho.359a5c3ccbfe09e449ff.png",
     "static/media/homePerson.svg": "./static/media/homePerson.f24494c23910d387307a.svg",
     "static/media/Ubuntu-Regular.ttf": "./static/media/Ubuntu-Regular.d89eda6750f6960a7456.ttf",
@@ -21,10 +21,10 @@
     "static/media/fiveStar.svg": "./static/media/fiveStar.83bc5182f96826311111.svg",
     "index.html": "./index.html",
     "main.929b273d.css.map": "./static/css/main.929b273d.css.map",
-    "main.75bd6098.js.map": "./static/js/main.75bd6098.js.map"
+    "main.03fb1ee3.js.map": "./static/js/main.03fb1ee3.js.map"
   },
   "entrypoints": [
     "static/css/main.929b273d.css",
-    "static/js/main.75bd6098.js"
+    "static/js/main.03fb1ee3.js"
   ]
 }
