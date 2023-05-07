@@ -1,0 +1,97 @@
+.loginMain{
+    background:  linear-gradient(178deg, #FF5F6D 43.24%, #FFC371 151.05%);;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginPanel{
+    background-color: white;
+    width: 50vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2em;
+}
+.loginPanelLeft{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginPanelLeftItem{
+    width: 100%
+
+}
+.loginPanelRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    padding-right: 5em;
+}
+.loginPanelRightTitle{
+    font-size: 1.5em;
+    margin: 1em;
+}
+.loginPanelRightItems{
+    display: flex;
+    flex-direction: column;
+}
+.loginPanelRightItemsTxt{
+    font-size: 0.5em;
+    margin-bottom: 1em;
+}
+.loginPanelRightItemsInput{
+    width: 25em;
+    height: 2em;
+    outline: none;
+    border: none;
+    border-radius: 0.7em;
+    padding: 0.5em;
+    background-color:    rgba(217, 217, 217, 1);
+    margin-bottom: 3em;
+}
+.loginPanelRightItemsInput:focus{
+    outline: none;
+    border: none;
+}
+.loginPanelRightDown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.loginPanelRightDownCheck{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.loginPanelRightDownCheckBox{
+    border: none;
+    outline: none;
+    width: 1em;
+    height: 1em;
+}
+.loginPanelRightDownCheckTxt{
+    font-size: 0.5em;
+}
+.loginPanelRightDownText{
+    
+}
+.loginPanelRightButton{
+    background-color: #D9D9D9;
+    width:15em;
+    height: 3em;
+    align-self: center;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.loginPanelRightButton:hover{
+    background-color:#eeee00;
+}

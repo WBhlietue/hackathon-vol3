@@ -1,0 +1,100 @@
+.walletMain{
+    background:  linear-gradient(178deg, #FF5F6D 43.24%, #FFC371 151.05%);;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.walletPanel{
+    background-color: white;
+    width: 50vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+    padding: 1em;
+    align-items: center;
+}
+.walletPanelTitle{
+    color: black;
+    font-size: 2em;
+    margin: 0.5em;
+}
+.walletPanelItem{
+    width: fit-content;
+
+}
+.walletPanelTxt{
+    color: black;
+    font-size: 1.1em;
+    margin: 0.5em;
+}
+.walletPanelData{
+    background-color: #FF5F6D;
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-radius: 100em;
+    width: 15em;
+    margin-bottom: 2em;
+}
+.walletPanelBtns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.walletBtnsHistory{
+    background-color: #FFC371;
+    width:10em;
+    height: 3em;
+    align-self: center;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+    transition: all 0.3s;
+    cursor: pointer;
+    color:white;
+}
+.walletBtnsAdd{
+    background-color: #FF5F6D;
+    width:15em;
+    height: 3.5em;
+    align-self: center;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+    transition: all 0.3s;
+    cursor: pointer;
+    color:white;
+    
+}
+.walletBtnsExport{
+    background-color: #FFC371;
+    width:10em;
+    height: 3em;
+    align-self: center;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+    transition: all 0.3s;
+    cursor: pointer;
+    color:white;
+}
+
+.walletBtnsHistory:hover{
+    transform: scale(1.1) translateY(-10%);
+}
+.walletBtnsAdd:hover{
+    transform: scale(1.1) translateY(-10%);
+}
+.walletBtnsExport:hover{
+    transform: scale(1.1) translateY(-10%);
+}

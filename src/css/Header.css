@@ -60,10 +60,12 @@
     font-size: 1.5em;
     color: black;
     font-weight: bold;
+    cursor: pointer;
 }
 .headerMainLogo{
     width: 2.5em;
     height: 2.5em;
+    cursor: pointer;
 }
 
 .headerMainNav ul li{
@@ -148,6 +150,11 @@
     align-items: center;
     justify-content: space-around;
     color: white;
+    margin-right: 1em;
+    transition: all 0.3s;
+}
+.headerMainRegister:hover{
+    transform:  scale(1.1);
 }
 .headerMainLogin{
     cursor: pointer;
@@ -156,7 +163,20 @@
     transition: all 0.3s;
     margin-right: 1em;
     text-decoration: none;
+    
 }
 .headerMainLogin:hover{
     transform: scale(1.1);
+}
+.headerMainUser{
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    padding: 0.1em;
+    border-radius: 100em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF5F6D;
+    margin: 0 1em;
 }

@@ -55,7 +55,9 @@ let data4 = {
     plus:"i need meet for my mom",
     picture:""
 }
-export function RegisterGive(data) {} // use data1
+export function RegisterGive(data) {
+    
+} // use data1
 export function RegisterGet(data) {} // use data2
 export function ChangeData(data, moreInfo, skill) {} // use data2
 export function GetMyOrders() {} // return data3's list

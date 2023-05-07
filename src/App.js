@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { GetOrderList } from "./pages/GetOrderList";
 import { Home } from "./pages/Home";
@@ -16,8 +16,11 @@ import { About } from "./pages/About";
 import { FAQ } from "./pages/FAQ";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-import Login from "./pages/Login";
+import { Login } from "./pages/Login";
 import Payment from "./pages/Payment";
+import { Register } from "./pages/Register";
+import { Wallet } from "./pages/Wallet";
+
 const UserType = {
   worker: "1",
   part: "2",
@@ -101,8 +104,8 @@ export default function App() {
     // </BrowserRouter>
     <div>
       <Header></Header>
-      {page == "Home" ? (
-        <Home />
+      {page == "Login" ? (
+        <Login />
       ) : page == "About" ? (
         <About />
       ) : page == "FAQ" ? (
@@ -125,8 +128,12 @@ export default function App() {
         <PlaceWork />
       ) : page == "AddOrderRequest" ? (
         <ViewOrdersAdd />
+      ) : page == "Register" ? (
+        <Register />
+      ) : page == "Wallet" ? (
+        <Wallet />
       ) : (
-        <Login />
+        <Home />
       )}
       <Footer></Footer>
     </div>

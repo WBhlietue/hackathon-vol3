@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { auth } from "./firebase";
 import "../css/Signup.css";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { Link } from "react-router-dom";
-function Login() {
+import "../css/Login.css";
+import { GetData, SetData } from "../components/Storage";
+function Login1() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -87,4 +89,56 @@ function Login() {
   );
 }
 
-export default Login;
+export default Login1;
+
+export function Login() {
+  const [isLogin, setIsLogin] = useState(GetData("isLogin", 0));
+  useEffect(() => {
+    if (isLogin == 1) {
+      SetData("isLogin", isLogin);
+      window.location.href = "index.html";
+    }
+  }, [isLogin]);
+
+  return (
+    <div className="loginMain">
+      <div className="loginPanel">
+        <div className="loginPanelLeft">
+          <img
+            className="loginPanelLeftItem"
+            src={require("../assets/images/photo.jpg")}
+          ></img>
+        </div>
+        <div className="loginPanelRight">
+          <div className="loginPanelRightTitle">Тавтай морилно уу</div>
+          <div className="loginPanelRightItems">
+            <div className="loginPanelRightItemsTxt">И-мэйл</div>
+            <input className="loginPanelRightItemsInput"></input>
+            <div className="loginPanelRightItemsTxt">Нууц үг</div>
+            <input className="loginPanelRightItemsInput"></input>
+            <div className="loginPanelRightDown">
+              <div className="loginPanelRightDownCheck">
+                <input
+                  className="loginPanelRightDownCheckBox"
+                  type={"checkbox"}
+                ></input>
+                <div className="loginPanelRightDownCheckTxt">
+                  Хэрэглэгч сануулах
+                </div>
+              </div>
+              <div className="loginPanelRightDownTxt">Нууц үг мартсан</div>
+            </div>
+            <div
+              className="loginPanelRightButton"
+              onClick={() => {
+                setIsLogin(1);
+              }}
+            >
+              Нэвтрэх
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

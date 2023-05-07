@@ -3,7 +3,7 @@ import "../css/ViewOrderCard.css";
 import { Link } from "react-router-dom";
 import { GetTestLogo } from "./GetTestLogo";
 
-const showSkillNum = 2;
+const showSkillNum = 20;
 
 export function ViewOrderCard(props) {
   const skills = props.data.skills;

@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom";
 import { Link } from "../components/Link";
+import { GetData } from "../components/Storage";
 import "../css/Home.css";
 
 export function Home() {
@@ -17,15 +18,15 @@ export function Home() {
           <div className="homeMainPageText1 haku-from-top">
             Та юу сонирхож байна?
           </div>
-          <a  href="index.html?page=ViewOrders" className="homeMainPageBtn1 haku-from-right">
+          <a  href={"index.html?page=" + (GetData("isLogin", 0) == 1 ? "ViewOrders" : "Register") } className="homeMainPageBtn1 haku-from-right">
             <span className="homeMainPageText2">Би ажил хайж байна</span>
           </a>
-          <a href={"index.html?page=MyOrder"} className="homeMainPageBtn1 haku-from-left">
+          <a href={"index.html?page=" + (GetData("isLogin", 0) == 1 ? "MyOrder" : "Register" )} className="homeMainPageBtn1 haku-from-left">
             <span className="homeMainPageText2">Би ажилтан хайж байна</span>
           </a>
-          <div className="homeMainPageBtn1 haku-from-right">
+          <a href="index.html?page=About" className="homeMainPageBtn1 haku-from-right">
             <span className="homeMainPageText2">Зүгээр л сонирхож байна</span>
-          </div>
+          </a>
           <div className="homeMainPageBtn2 haku-from-left">
             <span className="homeMainPageText2">Үргэлжлүүлэх</span>
           </div>
