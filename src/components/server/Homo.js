@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { doc, getDoc, getFirestore, setDoc } from "firebase/firestore";
+import { deleteDoc, doc, getDoc, getFirestore, setDoc } from "firebase/firestore";
 
 // TODO: Replace the following with your app's Firebase project configuration
 // See: https://support.google.com/firebase/answer/7015592
@@ -42,7 +42,7 @@ export function Zahialga() {
         "ZahialgaLawlahID": "ZL001"
     }).then(res => {
 
-        });
+    });
     setDoc(doc(db, "data", "ZahialgaID/Zahialga_medeelel/" + "ZI002"), {
         "ZahialgaID": "ZI002",
         "Hayg": "BZD 13-khoroo 32, 17",
@@ -89,7 +89,7 @@ export function Zahialga() {
 export function Hereglegch() {
     setDoc(doc(db, "data", "CustomerID/Customer_info/" + "CI001"), {
         "HereglegchID": "CI001",
-        "ZahialgaID":"ZI001",
+        "ZahialgaID": "ZI001",
         "HereglegchOwog": "Selem",
         "HereglegchNer": "Jad",
         "Email": "jad@gmail.com",
@@ -102,7 +102,7 @@ export function Hereglegch() {
     });
     setDoc(doc(db, "data", "CustomerID/Customer_info/" + "CI002"), {
         "HereglegchID": "CI004",
-        "ZahialgaID":"ZI002",
+        "ZahialgaID": "ZI002",
         "HereglegchOwog": "Dorj",
         "HereglegchNer": "Pagma",
         "Email": "pagma@gmail.com",
@@ -115,7 +115,7 @@ export function Hereglegch() {
     });
     setDoc(doc(db, "data", "CustomerID/Customer_info/" + "CI003"), {
         "HereglegchID": "CI003",
-        "ZahialgaID":"ZI003",
+        "ZahialgaID": "ZI003",
         "HereglegchOwog": "Molsukh",
         "HereglegchNer": "Ganaa",
         "Email": "ganaa@gmail.com",
@@ -128,7 +128,7 @@ export function Hereglegch() {
     });
     setDoc(doc(db, "data", "CustomerID/Customer_info/" + "CI004"), {
         "HereglegchID": "CI004",
-        "ZahialgaID":"ZI004",
+        "ZahialgaID": "ZI004",
         "HereglegchOwog": "Gombo",
         "HereglegchNer": "Suren",
         "Email": "gombo@gmail.com",
@@ -141,7 +141,7 @@ export function Hereglegch() {
     });
     setDoc(doc(db, "data", "CustomerID/Customer_info/" + "CI005"), {
         "HereglegchID": "CI005",
-        "ZahialgaID":"ZI005",
+        "ZahialgaID": "ZI005",
         "HereglegchOwog": "Molom",
         "HereglegchNer": "bayar",
         "Email": "bayar@gmail.com",
@@ -192,8 +192,8 @@ export function T() {
         "ShaardlagataiHolbogd": "tsogzol@gmail.com",
         "GeriinHayg": "SB 1r horoo, 21, 12",
         "TsalingiinMedeelel": "400.000",
-        "Register":"RD12321232",
-        "Bolowsrol":"Bachelor"
+        "Register": "RD12321232",
+        "Bolowsrol": "Bachelor"
     }).then(res => {
 
     });
@@ -207,8 +207,8 @@ export function T() {
         "ShaardlagataiHolbogd": "baatarkhuu@gmail.com",
         "GeriinHayg": "SHD 15-r khoroo 41,24",
         "TsalingiinMedeelel": "400.000",
-        "Register":"PS12324312",
-        "Bolowsrol":"Buren dund"
+        "Register": "PS12324312",
+        "Bolowsrol": "Buren dund"
     }).then(res => {
 
     });
@@ -222,8 +222,8 @@ export function T() {
         "ShaardlagataiHolbogd": "samand@gmail.com",
         "GeriinHayg": "BZD 15r horoo, 21, 112",
         "TsalingiinMedeelel": "400.000",
-        "Register":"PO12542322",
-        "Bolowsrol":"Magistr"
+        "Register": "PO12542322",
+        "Bolowsrol": "Magistr"
     }).then(res => {
 
     });
@@ -237,7 +237,7 @@ export function T() {
         "ShaardlagataiHolbogd": "demberel@gmail.com",
         "GeriinHayg": "BZD 14r horoo, 2-21, 12",
         "TsalingiinMedeelel": "400.000",
-        "Register":"Oyutan"
+        "Register": "Oyutan"
     }).then(res => {
 
     });
@@ -251,21 +251,21 @@ export function T() {
         "ShaardlagataiHolbogd": "saihnaa@gmail.com",
         "GeriinHayg": "SHD 19r horoo, 2-21, 12",
         "TsalingiinMedeelel": "400.000",
-        "Register":"Bachelor"
+        "Register": "Bachelor"
     }).then(res => {
 
     });
 }
-export function AjilTurul(){
-    setDoc(doc(db,"data", "Ajil_Turul/turul/" + "AT001"),{
-        "AjilTurulID":"AT001",
-        "AjilTailbar":"Huselt"
-    }).then(res=>{
+export function AjilTurul() {
+    setDoc(doc(db, "data", "Ajil_Turul/turul/" + "AT001"), {
+        "AjilTurulID": "AT001",
+        "AjilTailbar": "Huselt"
+    }).then(res => {
 
-    });setDoc(doc(db,"data", "Ajil_Turul/turul/" + "AT002"),{
-        "AjilTurulID":"AT002",
-        "AjilTailbar":"Hiigdsen"
-    }).then(res=>{
+    }); setDoc(doc(db, "data", "Ajil_Turul/turul/" + "AT002"), {
+        "AjilTurulID": "AT002",
+        "AjilTailbar": "Hiigdsen"
+    }).then(res => {
 
     });
 }
@@ -274,72 +274,37 @@ export function AjiltanTuuh() {
     setDoc(doc(db, "data", "Ajiltan_Tuuh/tuuh/" + "AJ001"), {
         "AjiltanId": "AJ001",
         "ZahialgaID": "ZI001",
-        "AjilTurulID":"AT001"
+        "AjilTurulID": "AT001"
     }).then(res => {
 
     });
     setDoc(doc(db, "data", "Ajiltan_Tuuh/tuuh/" + "AJ002"), {
         "AjiltanId": "AJ002",
         "ZahialgaID": "ZI002",
-        "AjilTurulID":"AT001"
+        "AjilTurulID": "AT001"
     }).then(res => {
 
     });
     setDoc(doc(db, "data", "Ajiltan_Tuuh/tuuh/" + "AJ003"), {
         "AjiltanId": "AJ003",
         "ZahialgaID": "ZI003",
-        "AjilTurulID":"AT002"
+        "AjilTurulID": "AT002"
     }).then(res => {
 
     });
     setDoc(doc(db, "data", "Ajiltan_Tuuh/tuuh/" + "AJ004"), {
         "AjiltanId": "AJ004",
         "ZahialgaID": "ZI004",
-        "AjilTurulID":"AT002"
+        "AjilTurulID": "AT002"
     }).then(res => {
 
     });
     setDoc(doc(db, "data", "Ajiltan_Tuuh/tuuh/" + "AJ005"), {
         "AjiltanId": "AJ005",
         "ZahialgaID": "ZI005",
-        "AjilTurulID":"AT002"
-        
+        "AjilTurulID": "AT002"
+
     }).then(res => {
 
     });
 }
-
-
-// export function HereglegchTuuh() {
-
-//     setDoc(doc(db, "data", "HereglegchTuuh/tuuh/" + "HT001"), {
-//         "HereglegchID": "CI001",
-//         "ZahialgaID": "ZI001"
-//     }).then(res => {
-
-//     });
-//     setDoc(doc(db, "data", "HereglegchTuuh/tuuh/" + "HT002"), {
-//         "HereglegchID": "CI002",
-//         "ZahialgaID": "ZI002"
-//     }).then(res => {
-
-//     });
-//     setDoc(doc(db, "data", "HereglegchTuuh/tuuh/" + "HT003"), {
-//         "HereglegchID": "CI003",
-//         "ZahialgaID": "ZI003"
-//     }).then(res => {
-
-//     });
-//     setDoc(doc(db, "data", "HereglegchTuuh/tuuh/" + "HT004"), {
-//         "HereglegchID": "CI004",
-//         "ZahialgaID": "ZI004"
-//     }).then(res => {
-
-//     });
-//     setDoc(doc(db, "data", "HereglegchTuuh/tuuh/" + "HT005"), {
-//         "HereglegchID": "CI005",
-//         "ZahialgaID": "ZI005"
-//     }).then(res => {
-
-//     });
-// }

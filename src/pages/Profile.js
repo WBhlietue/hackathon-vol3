@@ -1,6 +1,7 @@
 import "../css/Profile.css"
 import logo from "../css/hoho.png"
 import check from '../css/check.png'
+import { RegisterGet } from "../components/server/Homo";
 
 export function Profile() {
     return (
